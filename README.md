@@ -1,6 +1,6 @@
 ## Assignment
 
-In this assignment you will create a basic calculator and style it using `CSS`, `inline styles`, and `styled-components`.
+In this assignment you will create a basic calculator and style it using `CSS`, `inline styles`, or `styled-components`.
 
 <div style="display: flex; justify-content: center; padding: 10px 0;">
 <img src="images/worst_calculator.png" alt="calculator example" width="350"/>
