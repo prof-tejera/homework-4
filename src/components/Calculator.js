@@ -1,5 +1,5 @@
 import Number from "./Number";
-import Operator from "./Operator";
+import Operation from "./Operation";
 import Screen from "./Screen";
 
 const Calculator = () => {
@@ -8,8 +8,8 @@ const Calculator = () => {
   /** TODO: what happens when I click a number? */
   const handleNumberClick = () => {};
 
-  /** TODO: what happens when I click an operator? */
-  const handleOperatorClick = () => {};
+  /** TODO: what happens when I click an operation? */
+  const handleOperationClick = () => {};
 
   return (
     <div>
@@ -28,12 +28,12 @@ const Calculator = () => {
           <Number value={9} onClick={handleNumberClick} />
         </div>
         <div style={{ paddingLeft: 10 }}>
-          <Operator value="+" onClick={handleOperatorClick} />
-          <Operator value="/" onClick={handleOperatorClick} />
-          <Operator value="x" onClick={handleOperatorClick} />
-          <Operator value="-" onClick={handleOperatorClick} />
-          <Operator value="=" onClick={handleOperatorClick} />
-          <Operator value="clear" onClick={handleOperatorClick} />
+          <Operation value="+" onClick={handleOperationClick} />
+          <Operation value="/" onClick={handleOperationClick} />
+          <Operation value="x" onClick={handleOperationClick} />
+          <Operation value="-" onClick={handleOperationClick} />
+          <Operation value="=" onClick={handleOperationClick} />
+          <Operation value="clear" onClick={handleOperationClick} />
         </div>
       </div>
     </div>
